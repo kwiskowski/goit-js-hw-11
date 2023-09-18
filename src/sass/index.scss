@@ -1,2 +1,14 @@
 @import './common';
 @import './example';
+@import './gallery';
+@import './form';
+
+button:hover {
+  cursor: pointer;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
