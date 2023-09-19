@@ -40,6 +40,8 @@ const loadApi = () => {
 
         Notiflix.Notify.success(`Hooray! We found ${totalHits} images.`);
         lightbox.refresh();
+        let page = 1;
+        // console.log(page);
       } else {
         clear();
         Notiflix.Notify.failure(
